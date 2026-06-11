@@ -40,6 +40,9 @@ text-decoration: none;
 color: black;
 
 }
+.Innerleft :hover{
+    color: brown;
+}
 
 .Page{
 
@@ -79,6 +82,7 @@ margin-bottom: 30%;
 
 }
 
+
 .Para {
 display: flex;
 align-items: center;
@@ -99,6 +103,11 @@ border: none;
 
 } 
 
+Para button :hover{
+    color: azure;
+
+}
+
 .Image{
 
 display: flex;
@@ -114,4 +123,127 @@ margin-top: 50px;
 
 
 }
+
+
+/* sean  */
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.Innerleft a{
+margin-left: 15px;
+text-decoration: none;
+color: black;
+
+
+
+}
+
+.two{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+
+}
+#two ,button{
+     padding: 15px 120px;
+     background-color: black;
+     color: aliceblue;
+     border-radius: 40px;
+     border: none;
+     margin-right: 100px;
+     
+}
+#button :hover{
+    color: aliceblue;
+}
+
+.him{
+    width: 100%;
+    height: 100vh;
+   
+}
+.me{
+    background-color: aliceblue;
+    justify-content:flex-start;
+    align-items:center;
+    justify-content: space-between; 
+   
+}
+
+him, h1{
+    color: black;
+}
+
+me ,a {
+    margin-right: 10px;
+}
+me, h4{
+    margin-left:10px ;
+}
+
+.book{
+    margin-left: 70px;
+    font-size: 150%;
+    margin-top: 55px;
+}
+
+.one img{
+    height: 380px;
+    width: 680px;
+    
+   
+}
+
+.three img{
+    height: 380px;
+    width: 380px;
+    
+}
+
+
+.im{
+    display: flex;
+    gap: 100px;
+    margin-left: 4.5%;
+    margin-top: 60px;
+    
+    
+}
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 40%;
+    margin-left: 70px;
+}
+
+.rayini{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 540px;
+    margin-top: 10px;
+}
+ 
+
+
+
+
+
+
+
+
 
